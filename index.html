@@ -7,19 +7,25 @@
     <title>james webb</title>
     <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
     <link rel="stylesheet" href="james-webb.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Hi+Melody&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>           
             <div class="header">
-                <div class="logo">james webb</div>   
+                <div class="logo">
+                    <img class="" src="./image/logo.png" alt="james webb">
+                    </div>   
                 <button class="btn-menu">Menu</button>
-                <ul class="nav-list">
-                    <li class="guide"><a href=".fisrst">stephan's quintet</a></li>
-                    <li class="guide"><a href=".second">Carina Nebula</a></li>
-                    <li class="guide"><a href=".third">SMACS 0723</a></li>
-                    <li class="guide"><a href=".forth">Southern Ring Nebula</a></li>
-                    <li class="guide"><a href=".fifth">WASP 96 b</a></li>
+                <ul class="nav-list open-nav">
+                    <li class="guide"><a href="#first">stephan's quintet</a></li>
+                    <li class="guide"><a href="#second">Carina Nebula</a></li>
+                    <li class="guide"><a href="#third">SMACS 0723</a></li>
+                    <li class="guide"><a href="#forth">Southern Ring Nebula</a></li>
+                    <li class="guide"><a href="#fifth">WASP 96 b</a></li>
                 </ul>
             </div>
         </nav>
@@ -28,37 +34,43 @@
     <div class="background">
         <video class="bg-video" src="https://isorepublic.com/wp-content/uploads/2019/10/iso-republic-milky-way-flying.mp4" alt="background" autoplay loop>
     </div>
-    <div class="padding"> 
+    <div id="first" class="padding"> 
 
     </div>
-    
+   
     <article class="first">
         <div class="images">
     <div class="first-image webb">
         <a href="https://webbtelescope.org/contents/media/images/2022/034/01G7DA5ADA2WDSK1JJPQ0PTG4A">
             <img class="stephans-quintet" src="https://stsci-opo.org/STScI-01G7DA7WM13DBQNKV4EHRFCCJ7.png" alt="stephan's quintet">
         </a>
-        
         <div class="img-description">stephans quintet taken by james webb </div>
     </div>
     <div class="first-image hubble">
-        <img class="stephans-quintet hubble" src="" alt="stephan's quintet">
+        <a href="https://hubblesite.org/contents/media/images/2009/25/2606-Image.html">
+        <img class="stephans-quintet" src="https://stsci-opo.org/STScI-01EVT5MHT3343D1X9YKAM9NRQT.jpg" alt="stephan's quintet"></a>
+        <div class="img-description">stephans quintet taken by hubble </div>
     </div>
 </div>
 <div class="description-part">
     <div class="description">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit soluta nesciunt reprehenderit, inventore sit iusto laudantium? Consectetur ab accusantium architecto aliquid, consequatur debitis dolore ratione sint ipsum deleniti laborum reiciendis!
+        Stephan's Quintet is a visual grouping of five galaxies of which four form the first compact galaxy group ever discovered. The group, visible in the constellation Pegasus, was discovered by Édouard Stephan in 1877 at the Marseille Observatory. The group is the most studied of all the compact galaxy groups.
     </div>
     <div class="first link">
        <div class="article-link">articles :</div> 
-        <a href="https://spaceflightnow.com/2022/07/12/stephans-quintet-five-galaxies-imaged-by-james-webb-space-telescope/">
+       <ul>
+        <li><a href="https://spaceflightnow.com/2022/07/12/stephans-quintet-five-galaxies-imaged-by-james-webb-space-telescope/"></li>
             Stephan’s Quintet: Five galaxies imaged by James Webb Space Telescope
-        </a>
-        <a href="TODO:기사"></a>
-        <a href="TODO:기사"></a>
+        </a><br/>
+        <li><a href="https://www.nocutnews.co.kr/news/5785849">은하의 충돌과 결합?…제임스 웹 우주망원경이 포착한 '스테판의 오중주'</a></li>
+        <li><a href="TODO:기사"></a></li>
+    </ul>
     </div>
 </div>
     </article>
+    <div id="second" class="padding"> 
+
+    </div>
     <article class="second">
         <div class="images">
         <div class="second-image webb">
@@ -80,6 +92,9 @@
             <a href="TODO:기사"></a>
         </div>
     </article>
+    <div id="third" class="padding"> 
+
+    </div>
     <article class="third">
         <div class="images">
         <div class="third-image webb">
@@ -101,7 +116,9 @@
             <a href="TODO:기사"></a>
         </div>
     </article>
+    <div id="forth" class="padding"> 
 
+    </div>
     <article class="forth">
         <div class="images">
         <div class="forth-image webb">
@@ -122,7 +139,9 @@
             <a href="TODO:기사"></a>
         </div>
     </article>
-            
+    <div id="fifth" class="padding"> 
+
+    </div>
     <article class="fifth">
         <div class="images">
         <div class="fifth-image webb">
@@ -147,5 +166,6 @@
     <footer>
         <div class="email">made by liverbird</div>
     </footer>
+    <script src="./james-webb.js"></script>
 </body>
 </html>
